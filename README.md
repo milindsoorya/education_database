@@ -1,6 +1,6 @@
 # Education Data Quality and Analysis
 
-This project aims to enhance data quality and facilitate the analysis of educational data stored in `educationDb`, a MySQL database. It encompasses SQL scripts for initializing database structures, data analysis queries, a Python script for data preparation (`dataPrep.ipynb`), and a Streamlit application for interactive data quality assessments and analytics. Utilizing MySQL Community Edition for database management, DBeaver for database interactions and CSV uploads, and Pandas for data manipulation, this project ensures dates are formatted correctly for MySQL compatibility.
+This project aims to enhance data quality and facilitate the analysis of educational data stored in `educationDb`, a MySQL database. It encompasses SQL scripts for initializing database structures, data analysis queries, a jupyter notebook for data preparation (`dataPrep.ipynb`), and a Streamlit application for interactive data quality assessments and analytics. Utilizing MySQL Community Edition for database management, DBeaver for database interactions and CSV uploads, and Pandas for data manipulation, this project ensures dates are formatted correctly for MySQL compatibility.
 
 ## Getting Started
 
@@ -13,7 +13,7 @@ You'll need to install:
 -   **MySQL Community Edition**: For database management.
 -   **Python 3.x**: Necessary for executing the data preparation script and the Streamlit application.
 -   **Pandas**: Used for Python-based data manipulation.
--   **Streamlit**: Required for the interactive dashboard.
+-   **Streamlit**: Required for the interactive dashboard. 
 
 ### Installation and Setup
 
