@@ -36,8 +36,8 @@ SELECT
   ROUND(AVG(uoh.grade), 2) AS averageGrade
 FROM UserOnlineHistory uoh
 JOIN OnlineCourses oc ON uoh.onlineCourseUid = oc.onlineCourseUid
-GROUP BY oc.onlineCourseTitle;
-
+GROUP BY oc.onlineCourseUid;
+   
 --- 4. Average grade for each subject
 SELECT 
     Subjects.subjectName,
@@ -49,7 +49,7 @@ JOIN
 JOIN 
     Subjects ON OnlineCourses.onlineCourseSubjectUid = Subjects.subjectUid
 GROUP BY 
-    Subjects.subjectName;
+    Subjects.subjectUid;
    
 --- 5. Determine if there are any courses not being completed
 SELECT
